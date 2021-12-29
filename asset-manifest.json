@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.5d006ff7.css",
+    "main.js": "/personal-website/static/js/main.d610a86a.js",
+    "static/js/787.3058b895.chunk.js": "/personal-website/static/js/787.3058b895.chunk.js",
+    "static/media/profile.jpg": "/personal-website/static/media/profile.c3602ea2d2f5a39c045d.jpg",
+    "static/media/sailbot.png": "/personal-website/static/media/sailbot.91322fbf07d504be9e51.png",
+    "static/media/microservices.png": "/personal-website/static/media/microservices.868bee4ce02bbd485714.png",
+    "static/media/twinkleaudio.mp3": "/personal-website/static/media/twinkleaudio.c36ae2d820eabcd3369f.mp3",
+    "static/media/adamina-all-400-normal.woff": "/personal-website/static/media/adamina-all-400-normal.4b6cf7bac70c45350f57.woff",
+    "static/media/adamina-latin-400-normal.woff2": "/personal-website/static/media/adamina-latin-400-normal.5aaf5dc0ac5594ec8433.woff2",
+    "static/media/twinkle.png": "/personal-website/static/media/twinkle.d249f8d15f6e360fff95.png",
+    "static/media/semantics.png": "/personal-website/static/media/semantics.075a55c40a1ded0f0c0c.png",
+    "index.html": "/personal-website/index.html",
+    "main.5d006ff7.css.map": "/personal-website/static/css/main.5d006ff7.css.map",
+    "main.d610a86a.js.map": "/personal-website/static/js/main.d610a86a.js.map",
+    "787.3058b895.chunk.js.map": "/personal-website/static/js/787.3058b895.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d006ff7.css",
+    "static/js/main.d610a86a.js"
+  ]
+}
