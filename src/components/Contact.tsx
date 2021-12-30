@@ -5,6 +5,9 @@ import "@fontsource/adamina";
 import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import ArticleIcon from '@mui/icons-material/Article';
+//@ts-ignore
+import resume from '../static/JohnAhnResume.pdf';
 
 interface IContactProps {
     title: string
@@ -37,13 +40,23 @@ export const Contact: React.FC<IContactProps> = ({title}) => {
                         </a>
                     </Typography>
                 </ListItem>
-                <ListItem disablePadding>
+                <ListItem disablePadding style={{marginBottom: "1rem"}}>
                     <ListItemIcon>
                         <LinkedInIcon fontSize="large"/>
                     </ListItemIcon>
                     <Typography variant="h6" style={{fontFamily: "Helvetica Neue", whiteSpace: "pre-line", fontSize: "20px", margin: "0px 5rem"}}>
                         <a href="https://www.linkedin.com/in/johnahn-/?originalSubdomain=ca" style={{color: "grey"}}>
                             @johnahn
+                        </a>
+                    </Typography>
+                </ListItem>
+                <ListItem disablePadding>
+                    <ListItemIcon>
+                        <ArticleIcon fontSize="large"/>
+                    </ListItemIcon>
+                    <Typography variant="h6" style={{fontFamily: "Helvetica Neue", whiteSpace: "pre-line", fontSize: "20px", margin: "0px 5rem"}}>
+                        <a href={resume} target= "_blank" style={{color: "grey"}}>
+                            Resume
                         </a>
                     </Typography>
                 </ListItem>

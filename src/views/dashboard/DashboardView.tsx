@@ -85,8 +85,9 @@ export class DashboardView extends React.PureComponent<DashboardViewProps> {
                                     languages={"ReactJS frontend | Python + Flask backend"}
                                     desc={"My summer research project at the ReSeSS lab. This tool helps developers visualize different microservice recommendations of their monolithic application and perform a comparative analysis of the recommendations."}
                                     imageSrc={require('/Users/johnahn/PersonalProjects/personal-website/src/static/projects/microservices.png')}
-                                    githubRef={"https://github.com/jahn18/Microservice-Trade-off-Analysis-Tool"}
+                                    githubRef={"https://github.com/jahn18/"}
                                     modalDesc={<img src={microservices} style={{width: "100%"}}/>}
+                                    link={"http://svresessp1.ece.ubc.ca/"}
                                 />
                                 <ProjectCard 
                                     title={"Data Dashboard for UBC Sailbot"}
@@ -95,7 +96,7 @@ export class DashboardView extends React.PureComponent<DashboardViewProps> {
                                         "I am a the front-end developer for UBC Sailbot, an engineering student design team that specializes in building autonomous sailbots. I developed a full stack web application to monitor the sailboat’s sensor data and GPS coordinates in real time."
                                     }
                                     imageSrc={require('/Users/johnahn/PersonalProjects/personal-website/src/static/projects/microservices.png')}
-                                    githubRef={"https://github.com/jahn18/ML-Music-Sheet-Classifier"}
+                                    githubRef={"https://github.com/UBCSailbot/sailbot-web-app"}
                                     modalDesc={<img src={sailbot} style={{width: "100%"}}/>}
                                 />
                                 <ProjectCard 
@@ -135,7 +136,7 @@ export class DashboardView extends React.PureComponent<DashboardViewProps> {
                                                 {<a href="https://www.mdpi.com/2076-3417/8/4/606" style={{color: "gray"}}> End-to-End Neural Optical Music Recognition of Monophonic Scores</a>}
                                                 {". \n\nThe paper proposes a model composed of a Convolutional Neural Network (CNN) for feature extraction from the input image, followed by a Bidirectional Long Short Term Memory (BLSTM) Network to identify the sequence of musical symbols. Together, this is known as a Convolutional Recurrent Neural Network (CRNN)."}
                                                 {" However, the CRNN model has one caveat: the number of sequential elements in the input image must be predetermined. Thankfully, this can be nicely solved using a special loss function called the Connectionist Temporal Classification (CTC) loss function, which allows the model to take in inputs with any number of sequential elements."}
-                                                {"\n\n This project was extremely rewarding—listen to what the AI produced below!"}
+                                                {"\n\n Overall, I found this project to be extremely rewarding—listen to what the AI produced below!"}
                                             </Typography>
                                             <Typography variant="body1" style={{width: "65%",fontSize: "12px", margin: "auto", marginTop: "1%", marginBottom: "5%"}}>
                                                 <figure>

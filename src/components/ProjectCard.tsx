@@ -26,6 +26,7 @@ interface IProjectCard {
     desc: any,
     githubRef: string
     modalDesc: any
+    link?: string
 }
 
 const styles: any = {
@@ -52,7 +53,7 @@ const styles: any = {
     }
 }
 
-export const ProjectCard: React.FC<IProjectCard> = ({ imageSrc, title, desc, languages, githubRef, modalDesc}) => {
+export const ProjectCard: React.FC<IProjectCard> = ({ imageSrc, title, desc, languages, githubRef, modalDesc, link = ""}) => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -67,14 +68,14 @@ export const ProjectCard: React.FC<IProjectCard> = ({ imageSrc, title, desc, lan
                         </Button>
                     }
                     {
-                        <Button size="small" onClick={handleOpen} style={{ color: "gray" }}>
+                        <Button size="small" onClick={handleOpen} style={{ color: "#2A2B2C" }}>
                             View
                         </Button>
                     }
                 </div>
                 <div style={{ width: "75%" }}>
                     <Typography gutterBottom variant="h5" component="div" style={{ marginBottom: "2rem", fontSize: "1.25em" }}>
-                        {title}
+                        {link ? <a href={link} style={{color: '#0044CC'}}> {title} </a> : title}
                     </Typography>
                     <Typography variant="body1" color="text.secondary" style={{ marginBottom: "1rem", fontSize: "1.05em" }}>
                         {desc}
