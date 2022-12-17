@@ -30,6 +30,8 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export class DashboardView extends React.PureComponent<DashboardViewProps> {
     render() {
+        document.title = "John Ahn";
+
         return (
             <div style={{}}>
                 <div 
@@ -55,9 +57,9 @@ export class DashboardView extends React.PureComponent<DashboardViewProps> {
                                 title={"About\n"} 
                                 body={
                                     <p>
-                                        {"I'm a third year computer science student at the University of British Columbia. Currently, I'm working as an undergraduate research assistant at the "}
+                                        {"I'm a third year computer science student at the University of British Columbia. I worked as an undergraduate research assistant at the "}
                                         <a href="https://people.ece.ubc.ca/mjulia/ReSeSS.html" style={{color: "gray"}}>Reliable, Secure, and Sustainable Software Lab</a>
-                                        {".\n\n"}
+                                        {", where I focused on architectural recovery for software systems. Now, I'm on an 8 month co-op at elastic path working on building a microservice-based backend for ecommerce platforms!\n\n"}
                                     </p>
                                 }
                             />
