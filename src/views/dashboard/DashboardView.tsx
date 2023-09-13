@@ -57,9 +57,9 @@ export class DashboardView extends React.PureComponent<DashboardViewProps> {
                                 title={"About\n"} 
                                 body={
                                     <p>
-                                        {"I'm a third year computer science student at the University of British Columbia. I worked as an undergraduate research assistant at the "}
+                                        {"I'm a fourth year computer science student at the University of British Columbia. I worked as an undergraduate research assistant at the "}
                                         <a href="https://people.ece.ubc.ca/mjulia/ReSeSS.html" style={{color: "gray"}}>Reliable, Secure, and Sustainable Software Lab</a>
-                                        {", where I focused on architectural recovery for software systems. Now, I'm on an 8 month co-op at elastic path working on building a microservice-based backend for ecommerce platforms!\n\n"}
+                                        {", where I focused on architectural recovery for software systems. I was recently on an 8 month co-op at Elastic Path building microservice-based backends for ecommerce platforms.\n\n"}
                                     </p>
                                 }
                             />
