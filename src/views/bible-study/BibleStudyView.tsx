@@ -1,11 +1,6 @@
 import React from "react";
 import Grid from '@mui/material/Grid';
-import { styled } from "@mui/material/styles";
-import { Avatar, Paper, Typography } from "@mui/material";
-import { Header } from "../../components/Header";
-import { About } from "../../components/About";
-import { Contact } from "../../components/Contact";
-import { ProjectCard } from "../../components/ProjectCard";
+import { Typography } from "@mui/material";
 
 export interface BibleStudyViewProps {
 }

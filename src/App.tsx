@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  BrowserRouter,
   BrowserRouter as Router,
   Route,
   Routes
@@ -14,9 +13,9 @@ class App extends React.Component {
   render() {
     return (
       <Routes>
-        <Route path='/' element={<DashboardView/>}></Route> 
-        <Route path='/greek-philosopher-name' element={<GreekProjectView/>}></Route> 
-        <Route path='/bible-study' element={<BibleStudyView/>}></Route> 
+        <Route path='/' element={<DashboardView/>}/> 
+        <Route path='/greek-philosopher-name' element={<GreekProjectView/>}/> 
+        <Route path='/bible-study' element={<BibleStudyView/>}/> 
       </Routes>
     );
   }
