@@ -86,7 +86,7 @@ export class DashboardView extends React.PureComponent<DashboardViewProps> {
                                     title={"A Trade-off Analysis Tool for Microservice Decompositions"}
                                     languages={"ReactJS frontend | Python + Flask backend"}
                                     desc={"My summer research project at the ReSeSS lab. This tool helps developers visualize different microservice recommendations of their monolithic application and perform a comparative analysis of the recommendations."}
-                                    imageSrc={require('/Users/johnahn/PersonalProjects/personal-website/src/static/projects/microservices.png')}
+                                    imageSrc={require('../../static/projects/microservices.png')}
                                     githubRef={"https://github.com/jahn18/"}
                                     modalDesc={<img src={microservices} style={{width: "100%"}}/>}
                                     link={"http://svresessp1.ece.ubc.ca/"}
@@ -97,7 +97,7 @@ export class DashboardView extends React.PureComponent<DashboardViewProps> {
                                     desc={
                                         "I am a the front-end developer for UBC Sailbot, an engineering student design team that specializes in building autonomous sailbots. I developed a full stack web application to monitor the sailboat’s sensor data and GPS coordinates in real time."
                                     }
-                                    imageSrc={require('/Users/johnahn/PersonalProjects/personal-website/src/static/projects/microservices.png')}
+                                    imageSrc={require('../../static/projects/microservices.png')}
                                     githubRef={"https://github.com/UBCSailbot/sailbot-web-app"}
                                     modalDesc={<img src={sailbot} style={{width: "100%"}}/>}
                                 />
@@ -107,7 +107,7 @@ export class DashboardView extends React.PureComponent<DashboardViewProps> {
                                     desc={
                                         "This is a team project I worked on in a machine learning course I took at UBC, where my team and I developed an andriod app that can scan a musical score and play it back to you. I specifically developed and trained a machine learning model, which can classify and transcribe the notes from a musical score."
                                     }
-                                    imageSrc={require('/Users/johnahn/PersonalProjects/personal-website/src/static/projects/microservices.png')}
+                                    imageSrc={require('../../static/projects/microservices.png')}
                                     githubRef={"https://github.com/jahn18/ML-Music-Sheet-Classifier"}
                                     modalDesc={
                                         <div>

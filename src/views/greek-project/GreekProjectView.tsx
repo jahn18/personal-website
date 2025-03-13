@@ -50,7 +50,7 @@ export class GreekProjectView extends React.PureComponent<IGreekPhilosophyProps,
         bylineAuthorLink={"www.johnahn.dev"}
         bylineAuthorLinkOpenInNewTab={true}
         // bylineAuthorTagline={"Your author tagline goes here"}
-        bylineAvatarImageSrc={require('/Users/johnahn/PersonalProjects/personal-website/src/static/profile/profile.jpg')}
+        bylineAvatarImageSrc={require('../../static/profile/profile.jpg')}
         autoScroll={true}
         onRestart={() => {}}
         onResult={() => {}}

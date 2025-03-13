@@ -22,7 +22,7 @@ export const Header: React.FC<IHeaderProps> = ({name, location}) => {
             </div>
             <Avatar 
                  alt="John Ahn"
-                 src={require('/Users/johnahn/PersonalProjects/personal-website/src/static/profile/profile.jpg')}
+                 src={require('../static/profile/profile.jpg')}
                  sx={{ width: 100, height: 100}}
             />
         </div>
