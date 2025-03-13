@@ -16,7 +16,7 @@ class App extends React.Component {
       <Routes>
         <Route path='/' element={<DashboardView/>}></Route> 
         <Route path='/greek-philosopher-name' element={<GreekProjectView/>}></Route> 
-        <Route path='/' element={<BibleStudyView/>}></Route> 
+        <Route path='/bible-study' element={<BibleStudyView/>}></Route> 
       </Routes>
     );
   }
