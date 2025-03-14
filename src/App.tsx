@@ -2,7 +2,8 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Routes
+  Routes,
+  HashRouter
 } from "react-router-dom";
 import { DashboardView } from './views/dashboard/DashboardView';
 import { GreekProjectView } from './views/greek-project/GreekProjectView';
@@ -12,11 +13,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <Routes>
-        <Route path='/' element={<DashboardView/>}/> 
-        <Route path='/greek-philosopher-name' element={<GreekProjectView/>}/> 
-        <Route path='/bible-study' element={<BibleStudyView/>}/> 
-      </Routes>
+      <HashRouter>
+        <Routes>
+          <Route path='/' element={<DashboardView/>}/> 
+          <Route path='/greek-philosopher-name' element={<GreekProjectView/>}/> 
+          <Route path='/bible-study' element={<BibleStudyView/>}/> 
+        </Routes>
+      </HashRouter>
     );
   }
 }
