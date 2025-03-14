@@ -22,7 +22,7 @@ export const BibleStudyView: React.FC<BibleStudyViewProps> = () => {
             >
                 <Grid container spacing={2}>
                     <Grid item xs={12}>
-                        <div style={{minHeight: "1rem"}}></div>
+                        <div style={{minHeight: "0.5rem"}}></div>
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h4" style={{fontFamily: "Helvetica Neue", color: "darkblue"}}>
@@ -30,6 +30,12 @@ export const BibleStudyView: React.FC<BibleStudyViewProps> = () => {
                         </Typography>
                         <Typography variant="subtitle1" style={{fontFamily: "Helvetica Neue", color: "#a7a7a7"}}>
                             Vancouver, Canada
+                        </Typography>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Typography variant="subtitle2">
+                            {"All those the Father gives me will come to me, and whoever comes to me I will never drive away."} <br/>
+                            {"—John 6:37"}
                         </Typography>
                     </Grid>
                     <Grid item xs={12}>
@@ -47,7 +53,7 @@ export const BibleStudyView: React.FC<BibleStudyViewProps> = () => {
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="body1">
-                            {"We're just a group of UBC students who love Jesus and want to study his word together. "}
+                            {"We're a group of UBC students who love Jesus and want to share his word with others 🙏 "}
                         </Typography>
                     </Grid>
                     <Grid item xs={12}>
@@ -59,6 +65,9 @@ export const BibleStudyView: React.FC<BibleStudyViewProps> = () => {
                         <Typography variant="body1">
                             We meet <strong>Tuesday, 7PM</strong> in <strong>Room 193</strong> @ <strong>Irving K. Barber Learning Centre (IKB)</strong>.
                         </Typography>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <div style={{minHeight: "0.5rem"}}></div>
                     </Grid>
                 </Grid>
             </div>
