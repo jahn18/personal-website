@@ -13,7 +13,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <HashRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path='/' element={<DashboardView/>}/> 
           <Route path='/greek-philosopher-name' element={<GreekProjectView/>}/> 

@@ -159,6 +159,7 @@ export class DashboardView extends React.PureComponent<DashboardViewProps> {
                             </Grid>
                         </Grid>
                     </Grid>
+                    <button onClick={() => window.location.href = '/#/bible-study'}>Bible Study</button>
                 </div>
                 {/* <div 
                     style={{
